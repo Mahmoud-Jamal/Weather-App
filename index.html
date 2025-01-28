@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@400;700&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Righteous&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body class="d-flex justify-content-center align-items-center position-relative">
+    <div class="w-m rounded-2 p-3">
+        <div class="header">
+            <input type="text" class="w-100 py-2 px-3 rounded-5 border border-0 pe-5" placeholder="Search city" id="search">
+            <i class="fa-solid fa-magnifying-glass fs-5" id="btn"></i>
+        </div>
+       <div class="Err d-none">
+        <div class="my-3">
+            <img src="./imges/message/not-found.png" alt="" width="100%">
+            <h2 class="text-center mt-2">Weather not found...</h2>
+        </div>
+       </div>
+        <div id="demo">
+            
+            
+            <div class="my-3">
+                <img src="./imges/message/search-city.png" alt="" width="100%">
+                <h2 class="text-center mt-2">Search...</h2>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
